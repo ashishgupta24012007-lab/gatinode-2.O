@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ashishgupta24012007-lab.github.io/the-end/sitemap.xml
+
+# Block access to any sensitive files
+Disallow: /script.js
+Disallow: /*.json$
+
+# Crawl delay (be kind to small servers)
+Crawl-delay: 10
